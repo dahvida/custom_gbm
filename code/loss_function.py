@@ -13,7 +13,7 @@ class loss_function:
     
     def __init__(self, 
                  y_true, 
-                 class_weight):
+                 class_weight = None):
         
         self.e = jnp.array(1e-3, dtype=jnp.float64)
         
