@@ -1,9 +1,9 @@
 # Custom_gbm
 JAX-based implementation of custom loss functions for LightGBM. The package currently includes:
-- Focal loss (https://arxiv.org/abs/1708.02002)
-- LDAM loss (https://arxiv.org/abs/1906.07413)
-- Logit-Adjusted loss (https://arxiv.org/abs/2007.07314)
-- PolyLoss (https://arxiv.org/abs/2204.12511)
+- **Focal loss** (https://arxiv.org/abs/1708.02002)  
+- **LDAM loss** (https://arxiv.org/abs/1906.07413)  
+- **Logit-Adjusted loss** (https://arxiv.org/abs/2007.07314)  
+- **PolyLoss** (https://arxiv.org/abs/2204.12511)  
 More will come in the future. Additionally, the package provides a wrapper for facilitating the addition of new loss functions, e.g. by handling automatic differentiation, initial score calculation, interfacing with LightGBM Train API and so forth.   
 
 # Installation  
